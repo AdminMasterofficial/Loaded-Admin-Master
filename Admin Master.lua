@@ -1,7 +1,7 @@
 if game.PlaceId == 155615604 then
 
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("Admin Master (Prison Life)", "DarkTheme")
+    local Window = Library.CreateLib("Admin Master (Prison Life)", "Ocean")
 
     local Workspace = game:GetService("Workspace")
     local Lighting = game:GetService("Lighting")
