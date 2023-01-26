@@ -249,6 +249,10 @@ if game.PlaceId == 155615604 then
         loadstring(game:HttpGet(('https://pastebin.com/raw/EqgLeYxW'),true))()
     end)
 
+    ScriptsSection:NewButton("Prevail X", "Loaded Prevail X", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+    end)
+
     local Credits = Window:NewTab("Credits")
     local CreditsSection = Credits:NewSection("Credits")
 
