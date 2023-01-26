@@ -106,7 +106,7 @@ if game.PlaceId == 155615604 then
         end
     end)
 
- ServerClientSection:NewButton("Arrest all Criminals", "Arrest all criminals", function()
+ ServerClientSection:NewButton("Arrest All Criminals", "Arrest all criminals", function()
     local Player = game.Players.LocalPlayer
     local cpos = Player.Character.HumanoidRootPart.CFrame
     for i,v in pairs(game.Teams.Criminals:GetPlayers()) do
