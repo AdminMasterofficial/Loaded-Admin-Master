@@ -277,6 +277,10 @@ if game.PlaceId == 155615604 then
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
     end)
 
+    ScriptsSection:NewButton("Fly V3", "Loaded Fly v3", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/EqgLeYxW'),true))()
+    end)
+
     local Credits = Window:NewTab("Credits")
     local CreditsSection = Credits:NewSection("Credits")
 
