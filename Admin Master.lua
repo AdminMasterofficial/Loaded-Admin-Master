@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("htps://pastebin.com/rawt/vff1bQ9F"))()
-local Window = Library.CreateLib("Admin Master", "Ocean")
+local Window = Library.CreateLib("Admin Master", "Red")
 
 local MainTab = Window:NewTab("Main")
 local MainTabSection = MainTab:NewSection("Main")
